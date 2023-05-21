@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Urbanist&display=swap" rel="stylesheet">
+    <title>Ficha de Atendimento de Reiki</title>
+    <style>
+    .f-montserrat, label, input, th{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .f-urbanist {
+    font-family: 'Urbanist', sans-serif;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="height: 175px; background-color: #3e481d;" class="d-flex align-items-center justify-content-start rounded-5 rounded-top-0">
+            <img src="/images/flower-thin.png" alt="" style="width: 100px; filter: invert(1);" class="mx-4 logo">
+            <h1 style="color: white;" class="text-center f-urbanist">Espaço Moksha</h1>
+        </div>
+    </header>
+
+    
+    <form class="mt-3">
+        <div style="background-color: #3e481d;" class="py-2 ps-5 rounded-5 d-flex justify-content-start align-items-center">
+            <img src="/images/om-black.png" alt="" style="height: 40px; filter:invert(1)" class="me-4 my-0">
+            <h2 style="color: white; font-size: 20px;" class="text-uppercase f-urbanist pb-0 pt-1">Dados pessoais:</h2>
+        </div>
+
+        <div class="px-5 pt-2 d-flex flex-column ">
+            <div class="d-flex align-items-start">
+                <label for="nome" class="me-2 ">Nome:</label> 
+                <input type="text" id="nome" name="nome" class="border border-black border-1 border-top-0 border-start-0 border-end-0 flex-fill me-4">
+            </div>
+            <div class="d-flex align-items-start mt-3">
+                <label for="dataNascimento" class="me-2">Data de nascimento:</label>
+                <input type="text" id="dataNascimento" name="dataNascimento" class="border border-black border-1 border-top-0 border-start-0 border-end-0 me-4 flex-fill">
+                <label for="idade" class="me-2">Idade:</label>
+                <input type="text" id="idade" name="idade" class="border border-black border-1 border-top-0 border-start-0 border-end-0 me-4 flex-fill">
+                <label for="sexo" class="me-2">Sexo:</label>
+                <input type="text" name="sexo" id="sexo" value="M / F" style="width: 60px;" class="border-0 me-4">
+            </div>
+            <div class="d-flex align-items-start mt-3">
+                <label for="endereco" class="me-2">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" class="border border-black border-1 border-top-0 border-start-0 border-end-0 flex-fill me-4">
+            </div>
+            <div class="d-flex align-items-start mt-3">
+                <label for="cidade" class="me-2">Cidade / Estado:</label>
+                <input type="text" id="cidade" name="cidade" class="border border-black border-1 border-top-0 border-start-0 border-end-0 flex-fill me-4">
+                <label for="cep" class="me-2">CEP:</label>
+                <input type="text" id="cep" name="cep" class="border border-black border-1 border-top-0 border-start-0 border-end-0 me-4">
+            </div>
+            <div class="d-flex align-items-start mt-3">
+                <label for="telefone" class="me-2">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" class="border border-black border-1 border-top-0 border-start-0 border-end-0 me-4">
+                <label for="email" class="me-2">E-mail:</label>
+                <input type="email" id="email" name="email" class="border border-black border-1 border-top-0 border-start-0 border-end-0 flex-fill me-4">
+            </div>
+            <div class="d-flex align-items-start mt-3">
+                <label for="motivo" class="me-2">Motivo da consulta:</label>
+                <input type="text" id="motivo" name="motivo" class="border border-black border-1 border-top-0 border-start-0 border-end-0 flex-fill me-4">
+                <label for="dataAtendimento">Data e hora do atendimento:</label>
+                <input type="text" id="dataAtendimento" name="dataAtendimento" class="border border-black border-1 border-top-0 border-start-0 border-end-0 me-4">
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div style="background-color: #3e481d;" class="py-2 ps-5 rounded-5 d-flex justify-content-start align-items-center">
+                <img src="/images/mao.png" alt="" style="height: 40px; filter: invert(1);" class="me-4 my-0">
+                <h2 style="color: white; font-size: 20px;" class="text-uppercase f-urbanist pb-0 pt-1">Análise energética:</h2>
+            </div>
+        </div>
+
+        <div class="mx-5">
+            <table class="table table-sm mt-3">
+                <thead>
+                <tr class="align-items-center">
+                    <th scope="col" style="width: 175px;">Chakra</th>
+                    <th scope="col" class="text-center">Carta</th>
+                    <th scope="col" class="text-center">Mensagem</th>
+                    <th scope="col" class="text-center">Luz</th>
+                    <th scope="col" class="text-center">Sombra</th>
+                    <th scope="col" class="text-center flex-fill">Alinhamento</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end d-flex justify-content-between" style="height: 33px;"><img src="/images/sahasrara.png" alt=""> Sahasrara</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/ajna.png" alt=""> Ajna</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/orelha.png" alt=""> Auditivo</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/visuddha.png" alt=""> Vissudha</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/anahata.png" alt=""> Anahata</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/braco-esquerdo.png" alt=""> Braço Esq.</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/braco-direito.png" alt=""> Braço dir.</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/manipura.png" alt=""> Manipura</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/svadhishthana.png" alt=""> Svaddhisthana</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/muladhara.png" alt=""> Mooladhara</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/joelho.png" alt=""> Joelhos</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border border-start-0 border-top-0 text-end  d-flex justify-content-between" style="height: 33px;"><img src="/images/pé.png" alt=""> Pés</th>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
